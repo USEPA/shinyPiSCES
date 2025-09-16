@@ -309,9 +309,7 @@ ui = fluidPage(
              div(align="center",img(src="logo.png",width=1000))),
     
     tabPanel(title = "Distribution Explorer", DistExplPanel),
-    
-    tabPanel(title = "Assemblage Predictor", AssemPredPanel),
-    
-    tabPanel(title = "Database Explorer", DataExplPanel)
+    tabPanel(title = "Database Explorer", DataExplPanel),
+    tabPanel(title = "Assemblage Predictor", AssemPredPanel)
   )
 )
