@@ -107,7 +107,7 @@ server= function(input,output,session) {
   output$map = renderLeaflet({
     leaflet() |>
       addTiles() |>
-      setView(lng = -96, lat = 37, zoom = 5)
+      setView(lng = -96, lat = 37, zoom = 4)
   })
   
   output$stream_map = renderLeaflet({
